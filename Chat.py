@@ -18,7 +18,7 @@ channel_id = -1001126399652	# id channel shoma
 admins = [378141562]	# id admin (ha)
 onlines = []
 merchent = ''	# az tariq zarinpal eqdam be daryaft merchentid konid va inja qarar bedid
-token = '451720316:AAHD1Q9YCo1DTe1BaaWroQHPDOxFSp7Ro5A'	#token
+token = '501800799:AAEDfZhlwoUMAqszJMkHRdzJww5L5dgMJAg'	#token
 debug_mode = False
 debug_user = 378141562	# id man hast , baraye daryaft error
 #		Config|		#
@@ -48,7 +48,7 @@ starttext = '''به بخش دوم خوش اومدی❤️
 🔖دقت داشته باش اگه میخوای جنسیت طرف مقابلت رو انتخاب کنی باید ربات رو برای خودت ویژه کنید'''
 forcejoin = '''🔖برای حمایت از ما و حمایت از اسپانسر ربات کافیه در کانال زیر عضو شوید✔️
 
-🔸ایدی کانال @Chat_root_Robots 🔹
+🔸ایدی کانال @X85_land 🔹
 
 ✨سپس به ربات برگشته عبارت :
 🔹 /start 🔸
@@ -367,7 +367,7 @@ def start(m):
 								bot.send_message(m.chat.id,starttext.format(m.from_user.first_name),reply_markup=markup)
 							else:
 								markup = types.InlineKeyboardMarkup()
-								joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/Chat_root_robots")
+								joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/X85_Land")
 								markup.add(joinlink)
 								bot.send_message(m.chat.id,forcejoin,reply_markup=markup)
 						else:
@@ -469,8 +469,8 @@ def start(m):
 					if joined(m.from_user.id):
 						print 'buyvip func buy'
 						a = buy(5000)
-						link = 'https://www.payping.ir/virus32/5000?utm_source=bot&utm_medium=preamount'+str(a)
-						links = 'https://www.payping.ir/virus32/5000?utm_source=bot&utm_medium=preamount'
+						link = 'https://www.payping.ir/TeleSelf/5000?utm_source=bot&utm_medium=preamount'+str(a)
+						links = 'https://www.payping.ir/TeleSelf/5000?utm_source=bot&utm_medium=preamount'
 						redis.hset('secretchat:links',m.from_user.id,a)
 						kb = types.InlineKeyboardMarkup()
 						b = types.InlineKeyboardButton("🎯 پرداخت",url=link)
@@ -485,14 +485,14 @@ def start(m):
 				#	About Us |>>
 				elif m.text == '🔹 درباره ما':
 					print 'main func about us'
-					link = 't.me/Chat_root_robots'
+					link = 't.me/X85_Land'
 					me = types.InlineKeyboardMarkup()
 					b = types.InlineKeyboardButton("🎉 ورود به کانال",url=link)
 					me.add(b)
-					bot.send_message(m.from_user.id,'🔖ساخت شده توسط :\n\n🔸 @virus32 🔹',reply_markup=me)
+					bot.send_message(m.from_user.id,'🔖ساخت شده توسط :\n\n🔸 @TeleSelf 🔹',reply_markup=me)
 				elif m.text == '🔸 پشتیبانی':
 					print 'main func about us'
-					link = 'https://telegram.me/virus32'
+					link = 'https://telegram.me/TeleSelf'
 					me = types.InlineKeyboardMarkup()
 					b = types.InlineKeyboardButton("💥 ارسال پیام",url=link)
 					me.add(b)
@@ -536,7 +536,7 @@ def selectboygirl(m):
 								bot.send_photo(m.chat.id,photo=open('img.jpg','rb'),caption=share.format(botuser,m.from_user.id))
 						else:
 							markup = types.InlineKeyboardMarkup()
-							joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/Chat_root_robots")
+							joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/X85_Land")
 							markup.add(joinlink)
 							bot.send_message(m.chat.id,forcejoin,reply_markup=markup)
 					else:
@@ -578,7 +578,7 @@ def selectboygirl(m):
 								bot.send_photo(m.chat.id,photo=open('img.jpg','rb'),caption=share.format(botuser,m.from_user.id))
 						else:
 							markup = types.InlineKeyboardMarkup()
-							joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/Chat_root_robots")
+							joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/X85_Land")
 							markup.add(joinlink)
 							bot.send_message(m.chat.id,forcejoin,reply_markup=markup)
 					else:
@@ -619,7 +619,7 @@ def selectboygirl(m):
 								bot.send_photo(m.chat.id,photo=open('img.jpg','rb'),caption=share.format(botuser,m.from_user.id))
 						else:
 							markup = types.InlineKeyboardMarkup()
-							joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/Chat_root_robots")
+							joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/X85_Land")
 							markup.add(joinlink)
 							bot.send_message(m.chat.id,forcejoin,reply_markup=markup)
 					else:
@@ -959,7 +959,7 @@ def cancelfind(m):
 #			if m.text == 'بزن بریم خرید':
 #				print 'buyvip func buy'
 #				a = buy(5000)
-#				link = 'https://www.payping.ir/virus32/5000?utm_source=bot&utm_medium=preamount'+str(a)
+#				link = 'https://www.payping.ir/TeleSelf/5000?utm_source=bot&utm_medium=preamount'+str(a)
 #				redis.hset('secretchat:links',m.from_user.id,a)
 #				kb = types.InlineKeyboardMarkup()
 #				b = types.InlineKeyboardButton("پرداخت",url=link)
@@ -1016,7 +1016,7 @@ def save_boy_girl(m):
 					redis.hset('secretchat:usergen',m.from_user.id,gen)
 				else:
 					markup = types.InlineKeyboardMarkup()
-					joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/Chat_root_robots")
+					joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/X85_Land")
 					markup.add(joinlink)
 					msg = bot.send_message(m.chat.id,forcejoin,reply_markup=markup)
 					bot.register_next_step_handler(msg,save_boy_girl)
