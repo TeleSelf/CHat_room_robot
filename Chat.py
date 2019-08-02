@@ -18,7 +18,7 @@ channel_id = -1001126399652	# id channel shoma
 admins = [378141562]	# id admin (ha)
 onlines = []
 merchent = ''	# az tariq zarinpal eqdam be daryaft merchentid konid va inja qarar bedid
-token = '501800799:AAEDfZhlwoUMAqszJMkHRdzJww5L5dgMJAg'	#token
+token = 'token'	#token
 debug_mode = False
 debug_user = 378141562	# id man hast , baraye daryaft error
 #		Config|		#
